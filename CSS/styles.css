@@ -1,0 +1,254 @@
+/*========== VARIABLES =======*/
+:root{
+        --primery-color: #2E2F42;
+        --second-color: #fff;
+        --font-famaly: 'Raleway', sans-serif;
+        --font-famaly: font-family: 'Roboto', sans-serif;
+}
+
+.body {
+        font-family: 'Roboto', sans-serif;
+}
+/*========== VARIABLES =======*/
+
+/* ========== COMMON STYLES ======= */
+.list{
+    list-style-type: none;
+}
+
+.link{
+    text-decoration: none;
+}
+ button{
+    cursor: pointer;
+ }
+
+.body{
+    font-family: 'Roboto', sans-serif;
+}
+/* ========== /COMMON STYLES ======= */
+
+ /* ========= PAGE HEADER ======= */
+.logotype{
+    
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1,16;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        color: #4D5AE5;
+
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.16;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        color: var(--navyblue, #2E2F42);
+}
+
+.menu-link{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+        color: var(--navyblue, #2E2F42);
+}
+
+.menu-link{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+        color: var(--navyblue, #2E2F42);
+}
+.menu-link{
+        /* Body Medium */
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+        color: var(--navyblue, #2E2F42);
+}
+.contact-link{
+        
+                font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.5;
+                letter-spacing: 0.32px;
+                color: var(--slate, #434455);
+}
+.contact-link{
+
+                font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.5;
+                letter-spacing: 0.32px;
+                color: var(--slate, #434455);
+}
+.menu-link:hover,
+.menu-link:focus {
+        color: #404BBF;
+}
+.contact-link:hover,
+.contact-link:focus {
+        color: #404BBF;
+}
+  /*========= /PAGE HEADER ======= */
+
+  /*=========== HERO ==========*/
+.hero{
+        background-color: #2E2F42;
+}
+
+  .main-title{
+       
+                text-align: center;
+                font-family: Roboto;
+                font-size: 56px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 1.07;
+                letter-spacing: 1.12px;
+                 color: #FFF;
+}
+
+  .order-servis{
+        font-family: Roboto;
+                font-size: 16px;
+                font-weight: 500;
+                background-color: #4D5AE5;
+                color: #FFFFFF;
+}
+
+  /*=========== /HERO ==========*/
+
+  /*=========== BENEFITS ==========*/
+  .benefits-title{
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+        color: var(--primery-color);
+}
+
+.benefits-list-title{
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+        color: var(--primery-color);
+}
+
+.benefits-list-text{
+                font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.5;
+                letter-spacing: 0.32px;
+                color: var(--primery-color);
+}
+  /*=========== /BENEFITS ==========*/
+
+  /*========== SPECIFICS OF WORK =========*/
+.what-doing-title{
+                text-align: center;
+                font-family: Roboto;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 1.11;
+                letter-spacing: 0.72px;
+                text-transform: capitalize;
+                color: var(--primery-color)
+}
+  /*========== /SPECIFICS OF WORK =========*/
+
+   /*========== OUR TEAM =========*/
+.our-team-title{
+        
+                text-align: center;
+                font-family: Roboto;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 1.11;
+                letter-spacing: 0.72px;
+                text-transform: capitalize;
+                color: var(--primery-color);
+}
+
+.our-team-list-title{
+       
+                text-align: center;
+                font-family: Roboto;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 1.2;
+                letter-spacing: 0.4px;
+                 color: var(--primery-color);
+}
+
+.our-team-list-text{
+        
+                text-align: center;
+                font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.5;
+                letter-spacing: 0.32px;
+                color: var(--primery-color);
+}
+    /*========== /OUR TEAM =========*/
+
+    /*========== FOOTER =========*/
+.page-footer{
+        background-color: #434455;
+}
+.footer-logotype{
+        
+                font-family: Raleway;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 1.16;
+                letter-spacing: 0.54px;
+                text-transform: uppercase;
+                color: #4D5AE5;
+
+                
+                font-family: Raleway;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 1.16;
+                letter-spacing: 0.54px;
+                text-transform: uppercase;
+                color: #F4F4FD;
+}
+
+.page-footer-text{
+
+                font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.5;
+                letter-spacing: 0.32px;
+                color:#F4F4FD;
+}
+    /*========== /FOOTER =========*/

@@ -1,0 +1,229 @@
+/*========== VARIABLES =======*/
+:root {
+    --primery-color: #2E2F42;
+    --second-color: #4D5AE5;
+    --font-famaly: 'Raleway', sans-serif;
+    --font-famaly: font-family: 'Roboto', sans-serif;
+ }  
+ 
+.body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*========== VARIABLES =======*/
+
+/*=========== COMMON STYLES =========*/
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+button{
+   cursor: pointer;
+}
+
+/*=========== /COMMON STYLES =========*/
+
+/*=========== PAGE HEADER ==========*/
+.logotype{
+    font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.16;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        color: var(--iris, #4D5AE5);
+    
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.16;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        color: var(--primery-color);
+}
+.menu-link{
+    font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+        color: var(--primery-color);
+}
+.menu-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--primery-color);
+}
+
+.menu-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--primery-color);
+}
+.contact-link{
+    font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+        color: var(--slate, #434455);
+}
+.contact-link{
+    font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+        color: var(--slate, #434455);
+}
+.menu-link:hover,
+.menu-link:focus{
+    color: #404BBF;
+}
+.contact-link:hover,
+.contact-link:focus{
+    color: #404BBF;
+}
+/*=========== /PAGE HEADER ==========*/
+
+/*=========== HERO ==========*/
+.all{
+    font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: #E7E9FC;
+        color: var(--second-color)
+}
+.all:hover,
+.all:focus{
+    background-color: #404BBF;
+    color: #FFFFFF
+}
+.web-site{
+    font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: #E7E9FC;
+        color: var(--second-color)
+}
+.web-site:hover,
+.web-site:focus{
+    background-color: #404BBF;
+        color: #FFFFFF
+}
+
+.app{
+    font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: #E7E9FC;
+        color: var(--second-color)
+}
+
+.app:hover,
+.app:focus{
+    background-color: #404BBF;
+        color: #FFFFFF
+}
+
+.desing{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+background-color: #E7E9FC;
+color: var(--second-color)
+}
+
+.desing:hover,
+.desing:focus{
+    background-color: #404BBF;
+        color: #FFFFFF
+    }
+
+.marketing{
+    font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: #E7E9FC;
+        color: var(--second-color)
+}
+
+.marketing:hover,
+.marketing:focus{
+    background-color: #404BBF;
+        color: #FFFFFF
+}
+/*=========== /HERO ==========*/
+
+/*=========== MOBILE APPLICATIONS ==========*/
+.mobile-applications-title{
+
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+        color: var(--primery-color);
+}
+
+.mobile-applications-text{
+
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+        color: #434455;
+}
+/*=========== /MOBILE APPLICATIONS ==========*/
+
+        /*========== FOOTER =========*/
+        .page-footer {
+            background-color: #434455;
+        }
+    
+        .footer-logotype {
+    
+            font-family: Raleway;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 1.16;
+            letter-spacing: 0.54px;
+            text-transform: uppercase;
+            color: #4D5AE5;
+    
+    
+            font-family: Raleway;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 1.16;
+            letter-spacing: 0.54px;
+            text-transform: uppercase;
+            color: #F4F4FD;
+        }
+    
+        .page-footer-text {
+    
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.5;
+            letter-spacing: 0.32px;
+            color: #F4F4FD;
+        }
+    
+        /*========== /FOOTER =========*/
+        
